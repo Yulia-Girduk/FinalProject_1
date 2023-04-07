@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" modified="2023-04-06T15:42:34.382Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.4" etag="yg8i9JZh-Qu9-lpoxuKA" type="device">
+  <diagram id="RkJwqlZ_fVXJaQxUuwy1" name="Страница 1">
+    <mxGraphModel dx="472" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TW7Y_rrsZ_jFDQ2ziWj9-1" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;Нарисовать блок-схему алгоритма,&amp;nbsp;которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам. Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TW7Y_rrsZ_jFDQ2ziWj9-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TW7Y_rrsZ_jFDQ2ziWj9-2" target="TW7Y_rrsZ_jFDQ2ziWj9-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TW7Y_rrsZ_jFDQ2ziWj9-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226.25" y="80" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TW7Y_rrsZ_jFDQ2ziWj9-3" value="&amp;nbsp;lengthArray" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="180" width="137.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TW7Y_rrsZ_jFDQ2ziWj9-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271.25" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
