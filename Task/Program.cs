@@ -69,6 +69,3 @@ PrintArray(arrayGiven);
 string[] arrayElementsLengthLessOrEqualToThree = GetArrayElementsLengthLessOrEqualToThree(arrayGiven);
 
 PrintArray(arrayElementsLengthLessOrEqualToThree);
-
-
-
