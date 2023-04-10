@@ -59,13 +59,13 @@ string[] GetArrayElementsLengthLessOrEqualToThree(string[] array)
 
 }
 
-
-
 int arrayLength = int.Parse(Prompt("Введите длину массива: "));
 string[] arrayGiven = GenerateArray(arrayLength);
 
+Console.WriteLine("Заданный массив: ");
 PrintArray(arrayGiven);
 
 string[] arrayElementsLengthLessOrEqualToThree = GetArrayElementsLengthLessOrEqualToThree(arrayGiven);
 
+Console.WriteLine("Результирующий массив: ");
 PrintArray(arrayElementsLengthLessOrEqualToThree);
