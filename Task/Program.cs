@@ -34,10 +34,27 @@ void PrintArray(string[] array)
     Console.WriteLine($"[{String.Join(", ", array)}]");
 }
 
-// Получаем массив из элементов данного массива, длина которых меньше или равна 3.
+// Получаем массив из элементов заданного массива, длина которых меньше или равна 3.
 string[] GetArrayElementsLengthLessOrEqualToThree(string[] array)
 {
     string[] newArray = new string[1];
+    int j = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= 3)
+        {
+            Console.WriteLine($"j = {j}");
+            if (j!=0)
+            {
+                int resizeArray = newArray.Length + 1;
+               Array.Resize(ref newArray, resizeArray); 
+            }
+
+            newArray[j] = array[i];
+            Console.WriteLine($"newArray[{j}] = {newArray[j]}");
+            j++;
+        }
+    }
     return newArray;
 
 }
@@ -50,6 +67,8 @@ string[] arrayGiven = GenerateArray(arrayLength);
 PrintArray(arrayGiven);
 
 string[] arrayElementsLengthLessOrEqualToThree = GetArrayElementsLengthLessOrEqualToThree(arrayGiven);
+
+PrintArray(arrayElementsLengthLessOrEqualToThree);
 
 
 
