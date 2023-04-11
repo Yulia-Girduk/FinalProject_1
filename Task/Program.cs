@@ -23,7 +23,7 @@ string[] GenerateArray(int arrayLength)
 
     for (int i = 0; i < array.Length; i++)
     {
-       array[i] = Prompt($"Введите значение {i} элемента массива: ");
+        array[i] = Prompt($"Введите значение {i} элемента массива: ");
     }
     return array;
 }
@@ -43,15 +43,12 @@ string[] GetArrayElementsLengthLessOrEqualToThree(string[] array)
     {
         if (array[i].Length <= 3)
         {
-            Console.WriteLine($"j = {j}");
-            if (j!=0)
+            if (j != 0)
             {
                 int resizeArray = newArray.Length + 1;
-               Array.Resize(ref newArray, resizeArray); 
+                Array.Resize(ref newArray, resizeArray);
             }
-
             newArray[j] = array[i];
-            Console.WriteLine($"newArray[{j}] = {newArray[j]}");
             j++;
         }
     }
