@@ -37,17 +37,14 @@ void PrintArray(string[] array)
 // Получаем массив из элементов заданного массива, длина которых меньше или равна 3.
 string[] GetArrayElementsLengthLessOrEqualToThree(string[] array)
 {
-    string[] newArray = new string[1];
+    string[] newArray = new string[0];
     int j = 0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
         {
-            if (j != 0)
-            {
-                int resizeArray = newArray.Length + 1;
-                Array.Resize(ref newArray, resizeArray);
-            }
+            int resizeArray = newArray.Length + 1;
+            Array.Resize(ref newArray, resizeArray);
             newArray[j] = array[i];
             j++;
         }
